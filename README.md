@@ -7,6 +7,7 @@ Sedentary lifestyle is defined by the absence of physical activity practices thr
 
 Our system focuses more on user friendliness of all type of people and they can access anywhere. A user can give inputs such as step count, mood, calories burned, hours of sleep and weight in the website. We take those values and give it to machine learning model. Finally, it will predict whether the person is active or inactive based on their given data.
 
+
 Observations: 
 
 ●	It was observed that when comparing the level of physical activity by the step count, people who are "happy" showed greater level when compared to the categories of "sad" and "neutral".
