@@ -10,9 +10,15 @@ Our system focuses more on user friendliness of all type of people and they can 
 Observations: 
 
 ●	It was observed that when comparing the level of physical activity by the step count, people who are "happy" showed greater level when compared to the categories of "sad" and "neutral".
+
 ●	In addition, "happy" people spend more energy (kilo calories) than "neutral" or "sad" people.
+
 ●	"Happy" people demonstrate sleeping more hours of sleep when compared to the other categories. However, "sad" people also sleep more hours than "neutral" people.
+
 ●	Self-perceived activity (active / inactive) also demonstrates differences in the case of the level of physical activity (by counting steps), "active" people tend to walk more steps, spend more calories and sleep more hours when compared to people self - called "inactive".
+
 ●	From the given data there is no much variance in weights. However, some how we can say that less weight people tends to be more "happy" which in turn effects on activeness.
+
 ●	Finally, the association between self-perception of activity with Mood, 46 percent of the people considered "sad" are "inactive" and 57 percent of the "happy" people are considered "active.
+
 Jessica Selinger's study reports on the "law of least effort" and demonstrates that the body adjusts to the least effort, as the brain "boycotts" efforts to save energy costs. Therefore, physically demanding of the body improves health and increases the disposition. It is known that the practice of regular physical activity is a leading intervention for better physical and mental health.
