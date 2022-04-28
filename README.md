@@ -1,6 +1,6 @@
 # Body-Fitness-Prediction
 
-### OVERVIEW : 
+### OVERVIEW: 
 Sedentary lifestyle is defined by the absence of physical activity practices throughout the day and causes a decrease in caloric expenditure. This behaviour is explained by the inappropriate lifestyle, for example, too much time sitting or lying down and still eating unhealthy foods during this time of immobilization. Currently, a third of the adult world population is physically inactive and this generates five million deaths per year (The Lancet, 2012). Additionally contributing to several chronic diseases, physical inactivity also influences mood, sleep quality and body weight.
 
 
