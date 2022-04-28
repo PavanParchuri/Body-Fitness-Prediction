@@ -23,6 +23,7 @@ Our system focuses more on user friendliness of all type of people and they can 
 Jessica Selinger's study reports on the "law of least effort" and demonstrates that the body adjusts to the least effort, as the brain boycotts efforts to save energy costs. Therefore, physically demanding of the body improves health and increases the disposition. It is known that the practice of regular physical activity is a leading intervention for better physical and mental health.
 
 
+### PROJECT STRUCTURE:
 This project has four parts:
 1. model.py — This contains code for the machine learning model to predict whether a
 person is active or inactive based on hours of sleep, body weight, mood (sad, neutral,
@@ -33,3 +34,16 @@ calls, computes the predicted value based on our model and returns it.
 the returned value.
 4. HTML/CSS — This contains the HTML template and CSS styling to allow user to
 enter inputs and displays the physical activeness of the user (active/inactive).
+
+
+### CONCLUSION: 
+In this model, we are detecting whether the person is active or inactive based on steps count,
+mood, body weight and hours of sleep using Gradient Boosting Classifier model. The purpose of this
+application is to view the existing technology of machine learning in for health care and use present
+technology for the development by which the user can check his health. Our project will create a
+better environment and it can be used very effectively for better body fitness and health. It is
+useful for people who takes their health seriously and wants to be fit as they can check daily
+and review their activeness. With this application, a person can easily know whether he/she is
+active or not, can check his body fitness regularly to maintain better health, can improve person
+lifestyle so that he can recover a bit than before, easy to access this application, a person can
+maintain proper fitness with the help of this application.
