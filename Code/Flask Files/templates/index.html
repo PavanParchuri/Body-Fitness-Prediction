@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>BODY FITNESS PREDICTION</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+ <div class="signup__container">
+  <div class="container__child signup__thumbnail">
+    <div class="thumbnail__logo">
+          <h1 class="logo__text">Machine Learning :<br>Sedentary lifestyle is defined by the absence of physical activity practices throughout the day and causes a decrease in caloric expenditure. This behavior is explained by the inappropriate lifestyle, for example, too much time sitting or lying down and still eating unhealthy foods during this time of immobilization. Currently, a third of the adult world population is physically inactive and this generates 5 million deaths per year (The LAncet, 2012). In addition to contributing to several chronic diseases, physical inactivity also influences mood, sleep quality and body weight. Thus, the objectives were:<br><br>
+
+1. Check if there are associations between physical activity (by counting steps), caloric expenditure, body weight hours of sleep and the feeling of feeling active and / or inactive.<br>
+
+2. Compare caloric expenditure between the categories of mood and self-perceived activity (active and inactive)<br>
+
+3. Compare the hours of sleep between the categories of mood and self-perceived activity (active and inactive)<br>
+
+4. Compare body weight between categories of self-perceived activity (active and inactive)</h1>
+    </div>
+    <div class="thumbnail__content text-center">
+      <h1 class="heading--primary">Welcome to Body Fitness Prediction with Machine Learning</h1>
+      <h2 class="heading--secondary">Get started with your Fitness Level</h2>
+    </div>
+    <div class="thumbnail__links">
+      <ul class="list-inline m-b-0 text-center">
+        <li><a href="http://alexdevero.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
+        <li><a href="https://www.behance.net/alexdevero" target="_blank"><fa class="fa fa-behance"></fa></a></li>
+        <li><a href="https://github.com/PavanParchuri" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/alexdevero" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
+    <div class="signup__overlay"></div>
+  </div>
+  <div class="container__child signup__form">
+    <form action="{{ url_for('predict')}}" method="post">
+      
+      <label class="label"><b>Mood</b></label> <br>
+        <select name="state" required="required" class="input--style-4" required>
+		<option value="sad">sad</option>
+		<option value="neutral">neutral</option>
+		<option value="happy">happy</option>
+		</select> <br><br>
+
+        <label class="label"><b>Steps Count</b></label> <br>
+        <input class="input--style-4" type="text" name="email" id="email"  required /> <br> <br>
+
+        <label class="label"><b>Calories Burned</b></label> <br>
+        <input class="input--style-4" type="text" name="password" id="password"  required /> <br> <br>
+
+        <label class="label"><b>Hours of Sleep</b></label> <br>
+        <input class="input--style-4" type="text" name="passwordRepeat" id="passwordRepeat"  required /> <br> <br>
+
+        <label class="label"><b>Weight in Kgs</b></label> <br>
+        <input class="input--style-4" type="text" name="passwordRepeat1" id="passwordRepeat1"  required /> <br> <br>
+
+      <br>
+      <button class="btn btn--form" type="submit" onClick="{{ url_for('predict')}}">Predict</button>
+      <br>
+   </form>
+   <br>
+   <a class="signup__link" >{{ prediction_text }}</a>
+  </div>                                                 
+</div>
+       
+</body>
+</html>
