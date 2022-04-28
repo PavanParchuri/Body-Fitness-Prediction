@@ -20,4 +20,4 @@ Our system focuses more on user friendliness of all type of people and they can 
 
 ●	Finally, the association between self-perception of activity with Mood, 46 percent of the people considered "sad" are "inactive" and 57 percent of the "happy" people are considered "active.
 
-Jessica Selinger's study reports on the "law of least effort" and demonstrates that the body adjusts to the least effort, as the brain "boycotts" efforts to save energy costs. Therefore, physically demanding of the body improves health and increases the disposition. It is known that the practice of regular physical activity is a leading intervention for better physical and mental health.
+Jessica Selinger's study reports on the "law of least effort" and demonstrates that the body adjusts to the least effort, as the brain boycotts efforts to save energy costs. Therefore, physically demanding of the body improves health and increases the disposition. It is known that the practice of regular physical activity is a leading intervention for better physical and mental health.
