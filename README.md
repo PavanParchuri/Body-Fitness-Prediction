@@ -21,3 +21,15 @@ Our system focuses more on user friendliness of all type of people and they can 
 ●	Finally, the association between self-perception of activity with Mood, 46 percent of the people considered "sad" are "inactive" and 57 percent of the "happy" people are considered "active.
 
 Jessica Selinger's study reports on the "law of least effort" and demonstrates that the body adjusts to the least effort, as the brain boycotts efforts to save energy costs. Therefore, physically demanding of the body improves health and increases the disposition. It is known that the practice of regular physical activity is a leading intervention for better physical and mental health.
+
+
+This project has four parts:
+1. model.py — This contains code for the machine learning model to predict whether a
+person is active or inactive based on hours of sleep, body weight, mood (sad, neutral,
+and happy), steps count, and caloric expenditure.
+2. app.py — This contains Flask APIs that receives sales details through GUI or API
+calls, computes the predicted value based on our model and returns it.
+3. request.py — This uses requests module to call APIs defined in app.py and displays
+the returned value.
+4. HTML/CSS — This contains the HTML template and CSS styling to allow user to
+enter inputs and displays the physical activeness of the user (active/inactive).
